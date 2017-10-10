@@ -1,4 +1,11 @@
-# Initialer Setup
+# Railway Oriented Programming
+
+Aufbau:
+
+- `presentation`: Der Vortrag. Details in der `README.md` im Ordner.
+- `RailwayDemo`: Einfache Vorlage fuer dotnetcore (ohne Implementierung). Details in der `README.md` im Ordner.
+
+## Initialer Setup
 
 - `dotnet new xunit -o RailwayDemo`
 - `cd RailwayDemo`
