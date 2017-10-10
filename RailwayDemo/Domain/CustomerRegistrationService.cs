@@ -16,7 +16,7 @@ namespace RailwayDemo.Domain
             _gateway = gateway;
         }
 
-        public CustomerCreatedResponse CreateCustomer(CreateCustomerRequest request)
+        public CustomerCreatedResponse RegisterCustomer(CreateCustomerRequest request)
         {
             return null;
         }
