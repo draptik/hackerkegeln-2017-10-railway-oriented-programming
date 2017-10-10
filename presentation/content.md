@@ -223,6 +223,11 @@ Wer m&ouml;chte heute noch auf Lambdas verzichten?
 
 ![noborder-](resources/railways-usage-3.png)
 
+<-- v -->
+
+- Wir brauchen ein Objekt, dass "beide Schienen im Bauch hat" (Success/Failure)
+- Dieses Objekt nennen wir **Result**
+
 <<= x =>>
 
 Machen wir unser Bildchen "funktionaler"
@@ -241,16 +246,27 @@ Machen wir unser Bildchen "funktionaler"
 
 Eigentlich wollen wir das Ergebnis von F1 kapseln, denn F2 erwartet
 
+<<= x =>>
+
+![noborderx-rop-why3](resources/rop-expect-result-return-result.png)
+
+**F2**: muss auch Fehler empfangen k&ouml;nnen (2 Eing&auml;nge)
+
+- wir m&uuml;ssen ein "Result" als Eingabe verarbeiten k&ouml;nnen
+- **F1** muss als Ausgabe ein "Result" liefern
 
 <-- v -->
 
-![noborder-rop-why3](resources/rop-expect-result-return-result.png)
+![noborderx-rop-wrapping-result](resources/rop-wrapping-result.png)
 
-<<= x =>>
+![noborderx-rop-f2-with-result](resources/rop-f2-withresult.png)
 
-**F2**: kann Fehler empfangen (2 Eing&auml;nge, 2 Ausg&auml;nge)
 
-- wir m&uuml;ssen ein "Result" als Eingabe verarbeiten k&ouml;nnen
+<-- v -->
+
+![noborder-](resources/railways-usage-2.png)
+
+![noborder-](resources/railways-result.png)
 
 <<= x =>>
 
@@ -291,14 +307,12 @@ public Result<Customer> CreateCustomer(...)
     }
 }
 ```
+
 <<= x =>>
 
 Finden wir zusammen raus, wie "Result" funktioniert
 
 **Mob-Session**
-
-**VIM**
-
 
 <<= x =>>
 
