@@ -310,6 +310,12 @@ public Result<Customer> CreateCustomer(...)
 
 <<= x =>>
 
+Ist nix Neues: man "wrapped" das Ergebnis
+
+Was neu ist: man kann die Ergebnisse verketten!
+
+<<= x =>>
+
 Finden wir zusammen raus, wie "Result" funktioniert
 
 **Mob-Session**
