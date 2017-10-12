@@ -2,7 +2,7 @@
 
 Aufbau:
 
-- `presentation`: Der Vortrag. Details in der `README.md` im Ordner.
+- `presentation`: Der Vortrag. Details in der `README.md` im Ordner. Vortrag als PDF: [presentation/pdf-slides/slides_Railway_oriented_programming.pdf](presentation/pdf-slides/slides_Railway_oriented_programming.pdf)
 - `RailwayDemo`: Einfache Vorlage fuer dotnetcore (ohne Implementierung). Details in der `README.md` im Ordner.
 
 ## Initialer Setup
